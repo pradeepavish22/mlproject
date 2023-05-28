@@ -1,0 +1,16 @@
+##Quick setup — if you’ve done this kind of thing before
+https://github.com/pradeepavish22/mlproject.git
+
+echo "# mlproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pradeepavish22/mlproject.git
+git push -u origin main
+
+##…or create a new repository on the command line
+
+git remote add origin https://github.com/pradeepavish22/mlproject.git
+git branch -M main
+git push -u origin main
